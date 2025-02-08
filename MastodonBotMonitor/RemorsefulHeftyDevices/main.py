@@ -11,7 +11,7 @@ from winrate_checker import WinrateChecker
 
 # -------------------- Configuration --------------------
 class Config:
-    API_URL = "https://debot.ai/api/dashboard/chain/recommend/hot_token"
+    API_URL = "[redacted]"
     PARAMS = {
         "chain": "solana",
         "duration": "1m",
@@ -26,8 +26,8 @@ class Config:
         "is_hide_honeypot": "true",
     }
 
-    DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN", "MTMzNjA4OTgxNDAxNjk4NzE4Nw.GOTS6y.Ic-SupKjBBjZln2pAM7RKx5YM1BhWd4n1SiKeI")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", 1335983755013132302))
+    DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN", "[redacted]")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", [redacted]))
     MOROCCO_TZ = pytz.timezone("Africa/Casablanca")
     CHECK_INTERVAL = 15  # seconds
     REQUIRED_SUFFIX = "pump"  # New required suffix

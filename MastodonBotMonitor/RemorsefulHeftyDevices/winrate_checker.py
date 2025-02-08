@@ -4,7 +4,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 class WinrateChecker:
-    BASE_URL = "https://debot.ai/api"
+    BASE_URL = "[redacted]"
 
     @staticmethod
     async def fetch_holders(token_address, holders_count=10):
